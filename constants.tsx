@@ -34,7 +34,7 @@ export const TOOLS = [
   { name: 'SQL', icon: 'https://cdn.simpleicons.org/postgresql/4169E1', category: 'Database' },
   { name: 'Git', icon: 'https://cdn.simpleicons.org/git/F05032', category: 'Version Control' },
   { name: 'Chrome DevTools', icon: 'https://cdn.simpleicons.org/googlechrome/4285F4', category: 'Debugging' },
-  { name: 'Slack', icon: 'https://cdn.simpleicons.org/slack/4A154B', category: 'Communication' },
+  { name: 'Slack', icon: 'https://a.slack-edge.com/38f0e7c/marketing/img/nav/logo.svg', category: 'Communication' },
   { name: 'Testrail', icon: 'https://cdn.simpleicons.org/testrail/28A745', category: 'Test Management' }
 ];
 
