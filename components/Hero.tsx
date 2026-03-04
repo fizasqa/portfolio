@@ -75,9 +75,13 @@ export const Hero: React.FC = () => {
             <div className="max-w-sm w-full relative group">
               <div className="absolute inset-0 bg-blue-600/10 rounded-3xl rotate-3 scale-105 -z-10 group-hover:rotate-6 transition-transform duration-700"></div>
               <img 
-                src="https://media.licdn.com/dms/image/v2/D4D03AQF3oluANAhzZQ/profile-displayphoto-scale_400_400/B4DZvS516BH0Ak-/0/1768769939869?e=1770854400&v=beta&t=cK71bBX-zXZRAOwo31CFSPYom40AjqL-_6B7qF-8hrk" 
+                src="./images/profile.jpeg" 
                 alt="Fiza Karamat" 
                 className="w-full h-auto rounded-3xl shadow-2xl relative z-10 transition-all duration-500 group-hover:scale-[1.02]"
+                onError={(e) => {
+                  // Fallback to LinkedIn image if local image not found
+                  e.currentTarget.src = "https://media.licdn.com/dms/image/v2/D4D03AQF3oluANAhzZQ/profile-displayphoto-scale_400_400/B4DZvS516BH0Ak-/0/1768769939869?e=1770854400&v=beta&t=cK71bBX-zXZRAOwo31CFSPYom40AjqL-_6B7qF-8hrk";
+                }}
               />
               <div className="absolute -bottom-6 -left-6 bg-white dark:bg-slate-900 p-4 rounded-xl shadow-xl z-20 border border-slate-100 dark:border-slate-800 hidden md:block animate-bounce">
                  <div className="flex items-center gap-2">

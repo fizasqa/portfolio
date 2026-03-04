@@ -19,7 +19,7 @@ export const About: React.FC = () => {
             <div className="relative group self-center mb-4">
               <div className="w-32 h-32 md:w-48 md:h-48 rounded-2xl overflow-hidden border-4 border-blue-50 dark:border-blue-900/20 shadow-xl group-hover:scale-105 transition-all duration-500">
                 <img 
-                  src="https://media.licdn.com/dms/image/v2/D4D03AQF3oluANAhzZQ/profile-displayphoto-scale_400_400/B4DZvS516BH0Ak-/0/1768769939869?e=1770854400&v=beta&t=cK71bBX-zXZRAOwo31CFSPYom40AjqL-_6B7qF-8hrk" 
+                  src="./images/profile.jpeg" 
                   alt="Fiza Karamat Profile" 
                   className="w-full h-full object-cover"
                 />
